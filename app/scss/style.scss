@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: 'Allenoire Free Personal';
+    src: url('../fonts/FontsFree-Net-Allenoire-Font .eot');
+    src: local('вє'), url('fonts/FontsFree-Net-Allenoire-Font .woff') format('woff'), url('fonts/FontsFree-Net-Allenoire-Font .ttf') format('truetype'), url('fonts/FontsFree-Net-Allenoire-Font .svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import '_vars.scss';
+@import '_global.scss';
+
+
+body {
+    background: linear-gradient(194.05deg, #FF1E1E -36.55%, #B33939 -5.94%, #282826 30.54%), #666678;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+
+.bg__header {
+    width: 100%;
+}
+
+.logo img {
+    position: absolute;
+    top: 57px;
+    left: 76px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btm__menu {
+    position: absolute;
+    top: 130px;
+    right: 142px;
+}
+
+.menu {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    font-weight: 400;
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    display: none;
+    right: 150px;
+    background: linear-gradient(240.43deg, #FF1E1E -31.84%, #B33939 9.17%, #282826 70.87%), #666678;
+    border-radius: 20px;
+    width: 315px;
+
+}
+
+
+.menuToggle.icon.active {
+    margin-bottom: -155px;
+
+    .hamburger:hover {
+        background-color: #EC4D4D;
+
+    }
+
+
+}
+
+.menuToggle.icon {
+    margin-bottom: -155px;
+}
+
+.about_us:hover {
+    color: #EC2B2B;
+    transition: 0.5s;
+}
+
+.case_studies:hover {
+    color: #EC2B2B;
+    transition: 0.5s;
+}
+
+.services:hover {
+    color: #EC2B2B;
+    transition: 0.5s;
+}
+
+.contacts:hover {
+    color: #EC2B2B;
+    transition: 0.5s;
+}
+
+
+.menu li {
+    display: inline-block;
+}
+
+
+.menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.menuToggle {
+    color: #ffffff;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+.menuToggle {
+    display: block;
+}
+
+.menu li {
+    display: block;
+}
+
+
+.icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 40px;
+    height: 4px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    transition: 0.5s;
+    display: inline-block;
+    margin-left: 12px;
+    border-radius: 10px;
+}
+
+
+
+.hamburger:before,
+.hamburger:after {
+    content: "";
+    margin-left: -8px;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    background: #fff;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.hamburger:before {
+    top: -20px;
+}
+
+.hamburger:after {
+    top: 20px;
+}
+
+
+.header__text p {
+    position: absolute;
+    font-family: 'Allenoire Free Personal';
+    color: #FFF7B1;
+    top: 396px;
+    left: 147px;
+    font-weight: 400;
+    font-size: 90px;
+    width: 881px;
+
+
+
+}
+
+.cards {
+    position: relative;
+}
+
+.cards__text {
+    margin-top: 72px;
+    font-family: 'Allenoire Free Personal';
+    font-weight: 400;
+    font-size: 70px;
+    color: #FFF7B1;
+    text-align: center;
+}
+
+.card_list {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    margin-top: 75px;
+    width: 329px;
+    height: 461px;
+    background: radial-gradient(115.05% 121.04% at 18.84% -14.53%, rgba(255, 48, 48, 0.78) 0%, rgba(53, 15, 15, 0.2) 100%);
+    backdrop-filter: blur(15px);
+    border-radius: 35px;
+    margin-right: 33px;
+}
+
+.card_img__one {
+    position: absolute;
+    top: 61px;
+    left: 105px;
+    align-items: center;
+}
+
+.card_img__two {
+    position: absolute;
+    top: 53px;
+    left: 106px;
+    align-items: center;
+}
+
+.card_img__three {
+    position: absolute;
+    top: 80px;
+    left: 107px;
+    align-items: center;
+}
+
+.info {
+    position: absolute;
+    bottom: 52px;
+    left: 28px;
+    width: 274px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #998181;
+
+}
+
+.card_title {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #DBD3C7;
+    margin-bottom: 20px;
+}
+
+.objects {
+    position: absolute;
+    width: 100%;
+    max-width: 339px;
+    left: 0;
+    top: -150px;
+}
+
+.projects__title {
+    font-family: 'Allenoire Free Personal';
+    font-weight: 400;
+    font-size: 70px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFF7B1;
+    margin-top: 272px;
+    margin-bottom: 20px;
+}
+
+.eclipcoin__card {
+    position: relative;
+    margin-top: 28px;
+    width: 1221px;
+    height: 405px;
+    background: radial-gradient(115.05% 121.04% at 18.84% -14.53%, rgba(255, 48, 48, 0.78) 0%, rgba(53, 15, 15, 0.2) 100%);
+    backdrop-filter: blur(15px);
+    border-radius: 35px;
+    margin-right: 33px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+}
+
+.eclipcoin_title {
+    position: absolute;
+    font-family: 'Allenoire Free Personal';
+    border-bottom: 1px solid rgba(255, 252, 252, 0.3);
+    width: 1050px;
+    color: #DBD3C7;
+    text-transform: lowercase;
+    left: 78px;
+    top: 78px;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.eclipcoin_text {
+    position: absolute;
+    width: 916px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 32px;
+    bottom: 98px;
+    left: 75px;
+    color: #998181;
+}
+
+.feature__title {
+    font-family: 'Allenoire Free Personal';
+    font-weight: 400;
+    font-size: 70px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFF7B1;
+    margin-top: 240px;
+    margin-bottom: 20px;
+}
+
+.feature__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1011px;
+
+
+}
+
+.feature__block-item {
+    flex-basis: 28%;
+    width: 168px;
+    text-align: center;
+    margin-top: 66px;
+    margin-bottom: 50px;
+
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.marketing__img {
+    margin-left: 60px;
+}
+
+.analytics__img {
+    margin-left: 60px;
+}
+
+.feature__block-text {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 36px;
+    color: #DBD3C7;
+    padding-top: 15px;
+}
+
+.development__text {
+    margin-bottom: -30px;
+}
+
+.marketing__text {
+    margin-left: 50px;
+}
+
+.analytics__text {
+    margin-left: 50px;
+}
+
+.footer__img {
+    position: absolute;
+    left: 0;
+    top: 820px;
+    width: 100%;
+
+}
+
+.contact__title {
+    margin-top: 956px;
+}
+
+.form {
+    margin-top: 190px;
+    // width: 1183px;
+
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.form__item {
+    width: 100%;
+    max-width: 490px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+
+}
+
+.form__input-name,
+.form__input-phone,
+.form__input-website,
+.form__input-key,
+.form__input-email {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgba($color: #fff, $alpha: 0.1);
+    outline: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+
+}
+
+.form__input-name::placeholder,
+.form__input-phone::placeholder,
+.form__input-website::placeholder,
+.form__input-key::placeholder,
+.form__input-email::placeholder {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+}
+
+.form__title {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    color: #7E7E85;
+    margin-bottom: 20px;
+}
+
+.form__btn {
+    padding: 39px 203px;
+    background: radial-gradient(235.08% 376.04% at 72.65% -4.84%, #EC2B2B 0%, #A63D3D 66.15%);
+    border-radius: 68px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-left: 100px;
+
+}
+
+.form__btn:hover {
+    background: radial-gradient(298.52% 663.13% at 90.96% -68.15%, #F32323 0%, #412626 66.15%);
+    transition: 0.3s;
+}
+
+
+.copyright {
+    margin-top: 125px;
+    margin-bottom: 66px;
+    text-align: center;
+
+}
+
+.copyright__text {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 18px;
+    color: #7E7E85;
+}
+
+@import '_media.scss';
