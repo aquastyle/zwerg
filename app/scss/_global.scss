@@ -4,8 +4,9 @@ $font: 'Inter', sans-serif;
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; //1rem =10px; 10px/16px = 62.5%
-  overflow: hidden;
+  width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 
   @media (max-width: 1024px) {
     font-size: 50%; //1rem =8px; 8px/16px = 50%
@@ -27,7 +28,9 @@ html {
 
 body {
   font-weight: 400;
-  overflow: auto;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 html,

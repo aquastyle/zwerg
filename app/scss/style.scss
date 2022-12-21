@@ -237,13 +237,13 @@ body {
     position: absolute;
     bottom: 52px;
     left: 28px;
-    width: 274px;
+    max-width: 274px;
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     color: #998181;
+    margin-right: 5px;
 
 }
 
@@ -255,6 +255,10 @@ body {
     text-align: center;
     color: #DBD3C7;
     margin-bottom: 20px;
+}
+
+.cards__text p{
+        margin-right: 10px;
 }
 
 .objects {
@@ -279,7 +283,8 @@ body {
 .eclipcoin__card {
     position: relative;
     margin-top: 28px;
-    width: 1221px;
+    width: 100%;
+    max-width: 1221px;
     height: 405px;
     background: radial-gradient(115.05% 121.04% at 18.84% -14.53%, rgba(255, 48, 48, 0.78) 0%, rgba(53, 15, 15, 0.2) 100%);
     backdrop-filter: blur(15px);
@@ -294,7 +299,7 @@ body {
     position: absolute;
     font-family: 'Allenoire Free Personal';
     border-bottom: 1px solid rgba(255, 252, 252, 0.3);
-    width: 1050px;
+    max-width: 1050px;
     color: #DBD3C7;
     text-transform: lowercase;
     left: 78px;
@@ -305,7 +310,8 @@ body {
 
 .eclipcoin_text {
     position: absolute;
-    width: 916px;
+    max-width: 916px;
+    padding-right: 50px;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 32px;
@@ -330,7 +336,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    width: 1011px;
+    max-width: 1011px;
 
 
 }
@@ -351,13 +357,6 @@ body {
 
 }
 
-.marketing__img {
-    margin-left: 60px;
-}
-
-.analytics__img {
-    margin-left: 60px;
-}
 
 .feature__block-text {
     font-family: 'Open Sans';
@@ -371,9 +370,6 @@ body {
     margin-bottom: -30px;
 }
 
-.marketing__text {
-    margin-left: 50px;
-}
 
 .analytics__text {
     margin-left: 50px;
@@ -403,6 +399,7 @@ body {
 
 
 }
+
 
 .form__item {
     width: 100%;
@@ -465,6 +462,8 @@ body {
     font-size: 32px;
     text-transform: uppercase;
     margin-left: 100px;
+
+
 
 }
 
